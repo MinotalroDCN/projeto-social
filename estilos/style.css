@@ -13,7 +13,7 @@ html, body {
 }
 
 body {
-    background-image: linear-gradient(45deg, black, #221133);
+    background-image: linear-gradient(45deg, black, #33194d);
 }
 
 main {
@@ -31,6 +31,7 @@ main {
     height: 627px;
     width: 311px;
     background: url(../pacote-d013/imagens/frame-iphone.png) no-repeat;
+    
 }
 
 #tela {
@@ -40,4 +41,25 @@ main {
 
     width: 267px;
     height: 471px;
+
+}
+
+#redes-sociais {
+    text-align: right;
+}
+
+#redes-sociais img {
+    width: 50px;
+    margin: 10px;
+    margin-right: 20px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.479);
+    box-sizing: border-box;
+}
+
+#redes-sociais img:hover {
+    border: 2px solid rgba(255, 255, 255, 0);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.466);
+    transition: transform .3s, border .2s;
 }
